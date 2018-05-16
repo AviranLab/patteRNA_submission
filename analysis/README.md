@@ -9,6 +9,11 @@ This repository contains all code and score files necessary to produce figures i
 
 ## Getting Started
 
+The following files must be unzipped (`gunzip`) before starting:
+* `PARS/GM12878.pars.gz`
+* `PARS/4SL_d75/scores.txt.gz`
+* `PARS/5SL_d75/scores.txt.gz`
+
 These tools use Python v3. You must also have the following dependencies installed in order to run these tools:
 
 * NumPy

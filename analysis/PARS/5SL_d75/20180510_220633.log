@@ -1,0 +1,71 @@
+2018-05-10 22:06 - DEBUG - cli : 137 - 
+=========================================================
+Running pattern mining with the following parameters:
+=========================================================
+A: None
+GQ: None
+GQ_type: 0
+KL_div: 0.01
+NAN: False
+config: None
+epsilon: 0.0001
+fasta: hg19.fa
+forbid_N_pairs: False
+input: GM12878.pars
+k: -1
+log: False
+maxiter: 100
+min_density: 0.75
+model: trained_HMM.pickle
+motif: None
+mu: None
+n_tasks: 8
+no_cscores: False
+no_prompt: False
+nogmm: False
+output: ./5SL_d75
+path: 1111111110111111111111100001111111110111111110011111111100011111110110000000011111110001111111011111111001111111000011111110000000011110011111110001111111001111001111111110000000011111111100000111101111100011110111101111101110111111
+phi: None
+pi: None
+posteriors: False
+reference: None
+sigma: None
+upsilon: None
+verbose: True
+viterbi: False
+w: None
+=========================================================
+2018-05-10 22:06 - INFO - gmmhmm : 1267 - Using 8 parallel processes
+2018-05-10 22:06 - INFO - cli : 155 - Target path  ->            1111111110111111111111100001111111110111111110011111111100011111110110000000011111110001111111011111111001111111000011111110000000011110011111110001111111001111001111111110000000011111111100000111101111100011110111101111101110111111
+2018-05-10 22:06 - INFO - cli : 160 - Loading input data         
+2018-05-10 22:06 - INFO - gmmhmm : 1267 - Using 8 parallel processes
+2018-05-10 22:07 - INFO - cli : 186 - Loading input data         ... done in 00:00:56
+2018-05-10 22:07 - INFO - cli : 296 - Using pre-trained model at trained_HMM.pickle
+2018-05-10 22:07 - INFO - cli : 303 - Building the scoring set   
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_001034996
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_002799
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_001037808
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_152295
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_001006
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_001099661
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_001923
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_005717
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NR_003716
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_003752
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_004046
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_003973
+2018-05-10 22:07 - WARNING - rnalib : 265 - Input data are not matching in length for transcript -> NM_198589
+2018-05-10 22:07 - INFO - cli : 309 - Building the scoring set   ... done in 00:00:00
+2018-05-10 22:07 - INFO - cli : 317 - Scoring set summary - 
+       Initial transcripts        74211
+       Passed QC                  662
+       Used transcripts           649
+       # Data points              1264852
+2018-05-10 22:07 - INFO - cli : 344 - Computing outputs          
+2018-05-10 22:12 - INFO - cli : 376 - Computing outputs          ... done in 00:04:54
+2018-05-10 22:12 - INFO - cli : 382 - Computing c-scores         
+2018-05-10 22:14 - INFO - cli : 389 - Computing c-scores         ... done in 00:02:26
+2018-05-10 22:14 - INFO - cli : 392 - Sorting scores             
+2018-05-10 22:14 - INFO - cli : 399 - Sorting scores             ... done in 00:00:08
+2018-05-10 22:14 - INFO - cli : 401 - Task                       ... done in 00:08:26
+2018-05-10 22:14 - INFO - cli : 402 - Output written to  ->      ./5SL_d75
